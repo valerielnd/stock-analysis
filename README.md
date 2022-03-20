@@ -57,9 +57,9 @@ to run the same analysis on larger data sets. To check the efficiency of the sub
 calculate how long the code takes to execute and output the elapsed time in a message box. The analysis for the year 2017 
 was executed in 0.97 seconds and for the year 2018 in 0.99 seconds.
 
-![original_2017]()
+![original_2017](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Original_2017.png)
 
-![original_2018]()
+![original_2018](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Original_2018.png)
 
 As we suspected, the subroutine is efficient for 12 data stocks, but to expand the dataset to include the entire stock 
 market over the last few years, we will need to refactor the code in our subroutine.
@@ -76,9 +76,9 @@ We kept the same button to run the analysis and used the same mechanism to calcu
 With those modifications, the analysis for 2017 was executed in 0.34 seconds, and the analysis for 2018 in 0.29 seconds. 
 This increases the code's efficiency by a factor of 2.5
 
-![refactor_2017]()
+![refactor_2017](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Challenge_2017.png)
 
-![refactor_2018]()
+![refactor_2018](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Challenge_2018.png)
 
 ## Results
 
