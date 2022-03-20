@@ -14,7 +14,7 @@ code we wrote with any stock while reducing the chance of errors.
 ## Analysis
 
 ### Total Volume
-The Data set we analyzed contains information about a dozen stocks. We measured how actively 
+The Data set we analyzed contains information about a dozen stocks. First, we measured how actively 
 a stock is traded by computing the total number of shares traded over the year. To proceed, we used the 
 information in the column "Volume" in the file "green_stock.xlsm" which gives the number of shares traded 
 by each stock in a day. Since the data in the sheet is sorted by stock and by date, each row containing 
