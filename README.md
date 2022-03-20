@@ -49,7 +49,7 @@ the total volume, the starting and ending price.
 
 ![2017](https://github.com/valerielnd/stock-analysis/blob/main/Analysis_Results_2017.png)
 
-![2018]()
+![2018](https://github.com/valerielnd/stock-analysis/blob/main/Analysis_Results_2018.png)
 
 # Effiency of the code
 The subroutine we wrote works well to analyze the data set for 12 stocks. However, in the future, Steve might want 
