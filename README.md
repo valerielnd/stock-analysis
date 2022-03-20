@@ -47,7 +47,7 @@ for which he wants to run the analysis. To use the same subroutine to run the an
 input in a variable of type single. We use it to select the sheet to activate when we start retrieving the values for 
 the total volume, the starting and ending price.
 
-![2017]()
+![2017](https://github.com/valerielnd/stock-analysis/blob/main/Analysis_Results_2017.png)
 
 ![2018]()
 
