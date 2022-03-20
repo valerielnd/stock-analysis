@@ -67,7 +67,7 @@ market over the last few years, we will need to refactor the code in our subrout
 ### Refactor the code
 The first change we made was to use three arrays of the same size of the number of stocks, one to keep their total volume, 
 one their starting price, and the last one their ending prices. This modification will let us gather the values that we need for our 
-analysis without going from the sheet that has the data to the sheet where we keep the results multiple times. 
+analysis without switching from the sheet that has the data and the sheet where we keep the results multiple times. 
 To iterate over the arrays, we will use an index variable that gets incremented each time we are done with one stock and 
 start working with the next.
 
