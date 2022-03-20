@@ -95,47 +95,7 @@ stock, the analysis for 2017 and 2018 got executed in about 0.99 seconds. when w
 the  analysis for 2017 and 2018 got executed in about 0.35 seconds.
 
 ## Summary
-We refactor a code in order to improve it while keeping the same features or functionalities. So, the goal is to 
-restructure the code, to make it more reliable and remove bugs. Some of the advantages of code refactoring are: 
-improving its design, maintaining it and make itrun faster. However, as refactoring a code involves modifying it, 
-this is can be risky and introduce additonal bugs.It can also be time consuming.
-
-Refactoring the subroutine 
-
-
- 
-
-Now that we know that VBA is working correctly, let's start analyzing some stock data. 
-Steve wants to find the total daily volume and yearly return for each stock. 
-Daily volume is the total number of shares traded throughout the day; it measures how actively a stock is traded. 
-The yearly return is the percentage difference in price from the beginning of the year to the end of the year. 
-Steve's parents are starting to pester him about Daqo's stock, so we'll start with DQ.
-
-Steve's parents want to know how actively DQ was traded in 2018. They believe that if a stock is traded often, 
-then the price will accurately reflect the value of the stock. If we sum up all of the daily volume for DQ, we'll 
-have the yearly volume and a rough idea of how often it gets traded.
-
-Check the total daily volume in the "DQ Analysis" worksheet. You should see that DQ traded 107,873,900 shares in 2018. 
-If your column isn't wide enough to hold the entire number, then it will appear as scientific notation instead. 
-Expanding the column's width will convert the data to the expected number.
-
-Steve wants to know how DQ performed in 2018. One way to measure this is to calculate the yearly return for DQ. 
-The yearly return is the percentage increase or decrease in price from the beginning of the year to the end of the year. 
-In other words, if you invested in DQ at the beginning of the year and never sold, the yearly return is how much your investment 
-grew or shrunk by the end of the year.
-Daqo dropped over 63% in 2018—yikes! Steve will definitely want to offer some better stocks to his parents.
-
-Since Daqo might not be the best option for Steve's parents to invest in, let's analyze multiple stocks to find some better choices for them. 
-A lot of the work we've already done to analyze DQ can be repurposed to analyze any stock. With a little more code, we can analyze a whole list of stocks.
-
-To run analyses on all of the stocks, we need to create a program flow that loops through all of the tickers.
-
-Instead of repeating our Daqo analysis code over and over and changing the bits that are stock-specific, we need to create a list of tickers 
-and have VBA handle reusing the code.  Luckily, we can do this with a for loop and an array.
-Now we're going to loop through the array. For each element in the array, we'll run the same analysis we did for DQ. This means we'll be running 
-a for loop inside of another for loop! Loops inside loops are called nested loops.
-Steve may want to look at a different set of stocks in the future. With this in mind, we should create a flexible macro for running multiple stocks. 
-By carefully reusing the code we've already written for DQ, we can write a macro with this flexibility.
-
-In the future, Steve may want to perform his analysis on larger datasets, and he wants to know how fast his VBA code will compile the results. 
-To help Steve, we need to s.
+We refactor a code to improve it while keeping the same features or functionalities. So, the goal is to 
+restructure the code to make it more reliable and remove bugs. Some of the advantages of code refactoring are: 
+improving its design, maintaining it, and making it run faster. However, as refactoring a code involves modifying it, 
+this can be risky and introduce other bugs. It can also be time-consuming.
