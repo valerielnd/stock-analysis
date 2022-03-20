@@ -88,7 +88,7 @@ when we consider DQ returns in both years, it went from 199.4% to -62.6%. This i
 This is why Steve's parents should consider diversifying their funds to mitigate the risks taken when investing. Also, 
 as we can notice, DQ was not the only stock whose values dropped in 2018. This might suggest a bad year for green energy stocks,
 while 2017 was perhaps a good year. Two stocks manage to get a positive return in 2018 ENPH and RUN. So, Steve's parents 
-should also consider them as an investment option.
+should also consider them as an investment options.
 
 As for the efficiency of the code, when we were using one variable to record the total volume, the starting and ending price of each
 stock, the analysis for 2017 and 2018 got executed in about 0.99 seconds. when we refactor the code to use arrays instead, 
@@ -97,5 +97,10 @@ the  analysis for 2017 and 2018 got executed in about 0.35 seconds.
 ## Summary
 We refactor a code to improve it while keeping the same features or functionalities. So, the goal is to 
 restructure the code to make it more reliable and remove bugs. Some of the advantages of code refactoring are: 
-improving its design, maintaining it, and making it run faster. However, as refactoring a code involves modifying it, 
+improving a program design, maintaining it, and making it run faster. However, as refactoring a code involves modifying it, 
 this can be risky and introduce other bugs. It can also be time-consuming.
+
+One advantage of the original code is we are not using additional data structures to hold the results for each stock.
+The code uses less memory when running. Also, it is easier to understand. However, using the same variable to keep 
+the results for each stock increases the traffic between VBA and Excel and makes the code slower. As the refactor code is
+better structured, it runs faster.
