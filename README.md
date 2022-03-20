@@ -97,5 +97,10 @@ the  analysis for 2017 and 2018 got executed in about 0.35 seconds.
 ## Summary
 We refactor a code to improve it while keeping the same features or functionalities. So, the goal is to 
 restructure the code to make it more reliable and remove bugs. Some of the advantages of code refactoring are: 
-improving its design, maintaining it, and making it run faster. However, as refactoring a code involves modifying it, 
+improving a program design, maintaining it, and making it run faster. However, as refactoring a code involves modifying it, 
 this can be risky and introduce other bugs. It can also be time-consuming.
+
+One advantage of the original code is we are not using additional data structures to hold the results for each stock.
+The code uses less memory when running. Also, it is easier to understand. However, using the same variable to keep 
+the results for each stock increases the traffic between VBA and Excel and makes the code slower. As the refactor code is
+better strutured, it runs faster.
