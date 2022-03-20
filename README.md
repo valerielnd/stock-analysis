@@ -13,7 +13,7 @@ code we wrote with any stock while reducing the chance of errors.
 
 ## Analysis
 
-# Total Volume
+### Total Volume
 The Data set we analyzed contains information about a dozen stocks. We measured how actively 
 a stock is traded by computing the total number of shares traded over the year. To proceed, we used the 
 information in the column "Volume" in the file "green_stock.xlsm" which gives the number of shares traded 
@@ -23,7 +23,7 @@ the rows retrieving the volume traded daily for a stock and adding this number t
 saved in a variable of type double. 
 
 
-# Yearly return
+### Yearly return
 The second piece of information that we decided to compute from the data set is the yearly return for each stock 
 which is the percentage difference in price from the beginning to the end of the year. To proceed, 
 within the same Subroutine, while retrieving the daily volume for a stock in a row, we also check if this given 
@@ -35,7 +35,7 @@ Once we have the total volume, the starting and ending price for a stock, before
 the following stock and overwrite our variables, we insert them in the "DQ Analysis" worksheet created for the results.
  
 
-# Formatting the results
+### Formatting the results
 To make it easier for Steve to read the results, we added code to our subroutine to format the sheet "DQ Analysis" 
 To help him determine at a glance which stocks performed well and which ones did not, we format the cells based on 
 the values of the returns, making positive returns green and negative returns red using conditionals. Also, as 
@@ -51,7 +51,7 @@ the total volume, the starting and ending price.
 
 ![2018](https://github.com/valerielnd/stock-analysis/blob/main/Analysis_Results_2018.png)
 
-# Effiency of the code
+### Effiency of the code
 The subroutine we wrote works well to analyze the data set for 12 stocks. However, in the future, Steve might want 
 to run the same analysis on larger data sets. To check the efficiency of the subroutine, we added a script that will 
 calculate how long the code takes to execute and output the elapsed time in a message box. The analysis for the year 2017 
@@ -64,7 +64,7 @@ was executed in 0.97 seconds and for the year 2018 in 0.99 seconds.
 As we suspected, the subroutine is efficient for 12 data stocks, but to expand the dataset to include the entire stock 
 market over the last few years, we will need to refactor the code in our subroutine.
 
-# Refactor the code
+### Refactor the code
 The first change we made was to use three arrays of the same size of the number of stocks, one to keep their total volume, 
 one their starting price, and the last one their ending prices. This modification will let us gather the values that we need for our 
 analysis without going from the sheet that has the data to the sheet where we keep the results multiple times. 
