@@ -22,6 +22,7 @@ information for one stock for a specific day, to compute the total volume, in a 
 the rows retrieving the volume traded daily for a stock and adding this number to the value of the previous day 
 saved in a variable of type double. 
 
+![loop](https://github.com/valerielnd/stock-analysis/blob/main/original_code.png)
 
 ### Yearly return
 The second piece of information that we decided to compute from the data set is the yearly return for each stock 
@@ -71,8 +72,13 @@ analysis without switching from the sheet that has the data and the sheet where 
 To iterate over the arrays, we will use an index variable that gets incremented each time we are done with one stock and 
 start working with the next.
 
+![arrays](https://github.com/valerielnd/stock-analysis/blob/main/arrary_for_results.png)
+
 Once we had all the values for each stock, we looped over the arrays and inserted the values in them in the results sheet. 
 We kept the same button to run the analysis and used the same mechanism to calculate how long the code took to perform the analysis. 
+
+![Inserting_results](https://github.com/valerielnd/stock-analysis/blob/main/inserting_results_refactored.png)
+
 With those modifications, the analysis for 2017 was executed in 0.34 seconds, and the analysis for 2018 in 0.29 seconds. 
 This increases the code's efficiency by at least a factor of 2.5
 
