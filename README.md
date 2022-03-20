@@ -74,7 +74,7 @@ start working with the next.
 Once we had all the values for each stock, we looped over the arrays and inserted the values in them in the results sheet. 
 We kept the same button to run the analysis and used the same mechanism to calculate how long the code took to perform the analysis. 
 With those modifications, the analysis for 2017 was executed in 0.34 seconds, and the analysis for 2018 in 0.29 seconds. 
-This increases the code's efficiency by a factor of 2.5
+This increases the code's efficiency by at least a factor of 2.5
 
 ![refactor_2017](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Challenge_2017.png)
 
