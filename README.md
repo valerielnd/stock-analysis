@@ -37,7 +37,7 @@ the following stock and overwrite our variables, we insert them in the "DQ Analy
  
 
 ### Formatting the results
-To make it easier for Steve to read the results, we added code to our subroutine to format the sheet "DQ Analysis" 
+To make it easier for Steve to read the results, we added code to our subroutine to format the sheet "DQ Analysis". 
 To help him determine at a glance which stocks performed well and which ones did not, we format the cells based on 
 the values of the returns, making positive returns green and negative returns red using conditionals. Also, as 
 Steve needed a way to run these analyses quickly, we created a button and linked it to our subroutine.
