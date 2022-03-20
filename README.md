@@ -4,7 +4,7 @@
 We are doing this project to help Steve working in the financial industry find accurate investment
 information that could be useful to his parents who need to invest in green energy. As they do not 
 have sufficient knowledge about investment, they chose to invest all their money into Daqo New 
-Energy Corporation is a company that makes silicon wafers for solar panels. However, Steve would prefer 
+Energy Corporation, a company that makes silicon wafers for solar panels. However, Steve would prefer 
 diversifying his parent's funds and decided to analyze multiple green energy stocks in addition to Daqo's
 stock using an excel file. To assist Steve, instead of using excel functions directly to run the analysis, 
 we will use VBA built to automate tasks and employ complex logic. Also, this will permit Steve reuse the 
