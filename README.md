@@ -55,7 +55,7 @@ the total volume, the starting and ending price.
 The subroutine we wrote works well to analyze the data set for 12 stocks. However, in the future, Steve might want 
 to run the same analysis on larger data sets. To check the efficiency of the subroutine, we added a script that will 
 calculate how long the code takes to execute and output the elapsed time in a message box. The analysis for the year 2017 
-was executed in 0.97 seconds and for the year 2018 in 0.99 seconds.
+was executed in 0.98 seconds and for the year 2018 in 0.99 seconds.
 
 ![original_2017](https://github.com/valerielnd/stock-analysis/blob/main/VBA_Original_2017.png)
 
